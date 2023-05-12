@@ -1,10 +1,10 @@
 func division() {
 
     print("Enter the first number of the division")
-    var number1: Int? = Int(readLine()!) ?? 0
+    let number1: Int? = Int(readLine()!) ?? 0
 
     print("Enter the second number of the division")
-    var number2: Int? = Int(readLine()!) ?? 0
+    let number2: Int? = Int(readLine()!) ?? 0
 
     
     let result: Int = number1! / number2!
