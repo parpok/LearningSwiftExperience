@@ -11,7 +11,6 @@ Basically everything that I usually shown on the programming courses/classes/les
 
 I want to get into making iOS Apps. Swift is natively supported on iOS so I think it's a great place to start for mobile while taking iOS into consideration. Yes I know without a Mac it doesn't really make sense. And yes I know that for Android I don't need to spend a lot of money for a computer with an Apple logo (or try some sketchy hackintosh stuff) but I'm not really interested in Android development and I have an iPhone so I want to make apps for it. XD
 
-
 ### What am I doing here?
 
 Stuff you see here is mostly taken from [Swift Documentation/Books](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
@@ -20,7 +19,7 @@ Yes it smells like tutorial hell and since some Chat-GPT was used it could also 
 ### TODO
 
 - [ ]  Make some CLI interface to make it more user friendly to use the functions
-- [ ] Format the code to make it compatible with [Swift-DooC](https://developer.apple.com/documentation/docc) 
+- [ ] Format the code to make it compatible with [Swift-DooC](https://developer.apple.com/documentation/docc)
 - [x] Basic math
 - [x] Basic input and output
 - [x] Basic math operations
@@ -40,7 +39,7 @@ might be MIT or something like WTFPL
 
 ### Requirements
 
- - Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)
+- Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)
 
 - Clone this repo
 
