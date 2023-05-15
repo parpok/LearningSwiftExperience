@@ -1,3 +1,4 @@
+/// This function prints out some numbers in different formats
 func binarynumber(){
     let decimalInteger = 17
     let binaryInteger = 0b101010       
@@ -9,5 +10,5 @@ func binarynumber(){
     print(octalInteger)
     print(hexadecimalInteger)    
     
-    //holy shit binary coding omfg aaaa
+    /// holy shit binary coding omfg aaaa
 }

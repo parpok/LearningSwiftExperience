@@ -1,3 +1,4 @@
+/// Basic addition function. Add Number 1 to Number 2 and print the result
 func additions() {
 
     print("Enter the first number of the addition")

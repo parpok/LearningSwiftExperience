@@ -1,3 +1,4 @@
+/// This function is just playing around nils
 func Nils(){
 
     print("Put some number here")

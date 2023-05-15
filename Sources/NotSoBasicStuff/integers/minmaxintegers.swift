@@ -1,3 +1,4 @@
+/// This function explores min and max values of integers and even adds them up
 func minmaxints(){
     let minint = Int64.min
     let maxint = Int64(Int8.max)

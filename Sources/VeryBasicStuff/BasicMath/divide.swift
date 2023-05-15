@@ -1,3 +1,4 @@
+/// Basic division function. Divide Number 1 by Number 2 and print the result
 func division() {
 
     print("Enter the first number of the division")

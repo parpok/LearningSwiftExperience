@@ -32,16 +32,15 @@ Yes it smells like tutorial hell and since some Chat-GPT was used it could also 
 
 ## License
 
-IDK at the moment
-might be MIT or something like WTFPL
+MIT
 
 ## How to run the damm thing
-
-### Requirements
-
-- Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)
 
 - Clone this repo
 
 - RN edit the main.swift file to your liking (or not)
 - run `swift run` in the root directory of the project
+
+### Requirements
+
+- Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)

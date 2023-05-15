@@ -1,3 +1,4 @@
+/// Basic subtraction function. Subtract Number 2 from Number 1 and print the result
 func subtractions(){
 
     print("Enter the first number of the subtraction")

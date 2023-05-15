@@ -1,3 +1,4 @@
+/// Basic multiply function. Multiply Number 1 by Number 2 and print the result
 func multiplication() {
 
     print("Enter the first number of the multiplication")
