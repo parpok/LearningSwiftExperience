@@ -31,5 +31,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Build
         run: swift build
-      - name: Run tests
-        run: swift test
+     # - name: Run tests
+      #  run: swift test
+      # I don't have tests setup yet. RN in this kind of state it's not needed. Maybe later.
