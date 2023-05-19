@@ -18,8 +18,8 @@ Yes it smells like tutorial hell and since some Chat-GPT was used it could also 
 
 ### TODO
 
-- [ ]  Make some CLI interface to make it more user friendly to use the functions
-- [ ] Format the code to make it compatible with [Swift-DooC](https://developer.apple.com/documentation/docc)
+- [ ]  Make some CLI interface to make it more user friendly to use the functions.
+<!-- - [ ] Format the code to make it compatible with [Swift-DooC](https://developer.apple.com/documentation/docc) I'm not a Mac user(currently). Basic documentation inside this basic code should be enough-->
 - [x] Basic math
 - [x] Basic input and output
 - [x] Basic math operations
@@ -32,16 +32,15 @@ Yes it smells like tutorial hell and since some Chat-GPT was used it could also 
 
 ## License
 
-IDK at the moment
-might be MIT or something like WTFPL
+WTFPL
 
 ## How to run the damm thing
-
-### Requirements
-
-- Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)
 
 - Clone this repo
 
 - RN edit the main.swift file to your liking (or not)
 - run `swift run` in the root directory of the project
+
+### Requirements
+
+- Either Windows, Linux or macOS based system with [Swift Toolchain version 5.8 or newer](https://swift.org/download/#releases)
