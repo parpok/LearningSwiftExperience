@@ -27,7 +27,7 @@ Yes it smells like tutorial hell and since some Chat-GPT was used it could also 
 
 #### Optional things TODO
 
-- [ ] Try doing some Ci/Cd stuff with GitHub Actions to build the project for different platforms
+- [x] Try doing some Ci/Cd stuff with GitHub Actions to build the project for different platforms
 - [ ] Maybe some tests?
 
 ## License
