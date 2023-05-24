@@ -1,26 +1,30 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
+import Foundation
 import ArgumentParser
 
+//@main
 struct SwiftLearning: ParsableCommand {
     static let configuration = CommandConfiguration(abstract: "SwiftLearning", version: "1.0.0")
 
     @Argument(help: "Prints the version of this tool")
         var version: String = Self.configuration.version 
 
-        func run() throws {
+        func runVersion() throws {
             print("Version: \(Self.configuration.version)")
         }
 
     @Argument(help: "Prints Hello World from the function Hello World")
-            var HelloWorld: String = Hello
+            var Hi: String = "Hi"
 
-            func run() throws {
+            func runHello() throws {
                 HelloWorld()
             }
 
 }
+
+SwiftLearning.main()
 
 
 // TODO - Add some kind of a menu picker or something to choose what to run.
