@@ -1,23 +1,24 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-
-import Foundation
 import ArgumentParser
 
-@main
 struct SwiftLearning: ParsableCommand {
     static let configuration = CommandConfiguration(abstract: "SwiftLearning", version: "1.0.0")
 
     @Argument(help: "Prints the version of this tool")
-    var version: String = Self.configuration.version 
+        var version: String = Self.configuration.version 
 
-    func run() throws {
-        print("Version: \(Self.configuration.version)")
-    }
+        func run() throws {
+            print("Version: \(Self.configuration.version)")
+        }
 
     @Argument(help: "Prints Hello World from the function Hello World")
-    var HelloWorld: String = HelloWorld()
+            var HelloWorld: String = Hello
+
+            func run() throws {
+                HelloWorld()
+            }
 
 }
 
