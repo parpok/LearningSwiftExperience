@@ -4,7 +4,8 @@
 import Foundation
 import ArgumentParser
 
-//@main
+
+
 struct SwiftLearning: ParsableCommand {
     static let configuration = CommandConfiguration(abstract: "SwiftLearning", version: "1.0.0")
 
@@ -16,16 +17,14 @@ struct SwiftLearning: ParsableCommand {
         }
 
     @Argument(help: "Prints Hello World from the function Hello World")
-            var Hi: String = "Hi"
+            var hello: String = "hi"
 
             func runHello() throws {
                 HelloWorld()
             }
-
 }
 
 SwiftLearning.main()
-
 
 // TODO - Add some kind of a menu picker or something to choose what to run.
 //HelloWorld()
