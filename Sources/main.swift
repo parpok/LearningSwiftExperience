@@ -4,28 +4,34 @@
 import Foundation
 import ArgumentParser
 
-
-
 struct SwiftLearning: ParsableCommand {
     static let configuration = CommandConfiguration(abstract: "SwiftLearning", version: "1.0.0")
 
-    @Argument(help: "Prints the version of this tool")
-        var version: String = Self.configuration.version 
+    @Flag(help: "Prints Hello World from the function Hello World")
+    var hello: Bool = false
 
-        func runVersion() throws {
-            print("Version: \(Self.configuration.version)")
-        }
+    func run() throws {
+        if hello {
+            HelloWorld()
+        } else {
+            print("Nothing specified please continue")
+    }
 
-    @Argument(help: "Prints Hello World from the function Hello World")
-            var hello: String = "hi"
 
-            func runHello() throws {
-                HelloWorld()
-            }
+
+
+}
+
+   /*  @Option(help: "add some numbers")
+            var add: String? = nil
+
+            func runAdd() throws {
+                additions()
+            } */
 }
 
 SwiftLearning.main()
 
-// TODO - Add some kind of a menu picker or something to choose what to run.
+// TODO - Add some kind of a menu picker or sometAAng to choose what to run.
 //HelloWorld()
-//print("Currently if you clone this project and want to see the working functions you'll need to refrence them here by putting the name of the function from the function in the Sources folder and () ")
+//print("Currently if you clone tAAs project and want to see the working functions you'll need to refrence them here by putting the name of the function from the function in the Sources folder and () ")
