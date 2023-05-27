@@ -10,28 +10,82 @@ struct SwiftLearning: ParsableCommand {
     @Flag(help: "Prints Hello World from the function Hello World")
     var hello: Bool = false
 
-    func run() throws {
-        if hello {
-            HelloWorld()
-        } else {
-            print("Nothing specified please continue")
-    }
+    @Flag(help: "Prints the arrays function")
+    var arrs: Bool = false
+
+    @Flag(help: "Prints the many different numbers from the binarynumbers function")
+    var binary: Bool = false
+
+    @Flag(help: "You will be asked to input some values and they will be printed")
+    var inputs: Bool = false
+
+    @Flag(help: "Yet another function where you are asked to input some values but this time you want to put nothing there so it would be a nil")
+    var nils: Bool = false
+
+    @Flag(help: "You will be asked for a number to check if its even")
+    var iteven: Bool = false
+
+    @Flag(help: "Some integers will be printed")
+    var ints: Bool = false
+
+    @Flag(help: "Some floats and doubles will be printed ")
+    var floatsdoubles: Bool = false
+
+    @Flag(help: "Play around some bools")
+    var bools: Bool = false
 
 
+        func run() throws {
+                switch true {
+                case hello:
 
+                    HelloWorld()
+                
+                case arrs:
 
-}
+                    print("""
+                    Running function that prints some arrays.
+                    You can also see that sorting is also used. 
+                    """)
+                    arrays()
 
-   /*  @Option(help: "add some numbers")
-            var add: String? = nil
+                case binary:
 
-            func runAdd() throws {
-                additions()
-            } */
+                print("Here you got some numbers in different systems. ")
+                binarynumber()
+
+                case inputs:
+                print("Put there something and it will be printed out")
+                inputValues()
+
+                case nils:
+                print("Yet another function where you are asked to input some values but this time you want to put nothing there so it would be a nil")
+                Nils()
+                
+                case iteven:
+                print("You will be asked for a number to check if its even")
+                IsEven()                
+                
+                case ints:
+                print("Some integers will be printed")
+                minmaxints()
+
+                case floatsdoubles:
+                print("Some floats and doubles will be printed ")
+                floatAnddouble()
+
+                case bools:
+                boolies()
+                
+                default:
+                    print("""
+                    Nothing specified please continue. 
+                    Either modyfy the code or run the program with a flag. 
+                    Flags are avaible under --help
+                    Also you can always check out its code
+                    """)
+            }
+        }
 }
 
 SwiftLearning.main()
-
-// TODO - Add some kind of a menu picker or sometAAng to choose what to run.
-//HelloWorld()
-//print("Currently if you clone tAAs project and want to see the working functions you'll need to refrence them here by putting the name of the function from the function in the Sources folder and () ")
