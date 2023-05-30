@@ -6,7 +6,10 @@ func arrays(){
     print(Numbers) // The numbers that are in the array are printed
     
     // Here are some strings in the array
-    let Names : [String] = ["Pat", "John", "Bob"]
+    var Names : [String] = ["Pat", "John", "Bob"]
+    print(Names)
+    
+    Names.sort() // The names are sorted
     print(Names) // and those names are printed
 
     // This is an empy array, also it shows mutability of a value

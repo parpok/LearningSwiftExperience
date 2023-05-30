@@ -1,7 +1,7 @@
 /// This function is just playing around nils
 func Nils(){
 
-    print("Put some number here")
+    print("Put some number here because there is an INT value")
     let somenumber = Int(readLine()!)
     if somenumber != nil {
     print("there's definetly a number there and that number is \(somenumber!)")
