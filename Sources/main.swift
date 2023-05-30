@@ -34,6 +34,18 @@ struct SwiftLearning: ParsableCommand {
     @Flag(help: "Play around some bools")
     var bools: Bool = false
 
+    @Flag(help: "Adds up some numbers")
+    var addition: Bool = false
+
+    @Flag(help: "Subtracts some numbers")
+    var subtraction: Bool = false
+
+    @Flag(help: "Multiplies some numbers")
+    var multiplication: Bool = false
+
+    @Flag(help: "Divides some numbers")
+    var division: Bool = false
+
 
         func run() throws {
                 switch true {
@@ -76,7 +88,19 @@ struct SwiftLearning: ParsableCommand {
 
                 case bools:
                 boolies()
-                
+
+                case addition:
+                additions()
+
+                case subtraction:
+                subtractions()
+
+                case multiplication:
+                multiplications()
+
+                case division:
+                divisions()
+
                 default:
                     print("""
                     Nothing specified please continue. 
